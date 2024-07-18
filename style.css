@@ -1,6 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     font-family: Helvetica Arial, sans-serif;
     background-color: beige;
+    margin: 20px;
 }
 img {
 height: auto;
@@ -8,9 +17,29 @@ width: 250px;
 }
 
 h1, h3 {
-    background-color: burlywood;
+    background-color: rgb(209, 209, 247);
+}
+
+h1 {
+    padding: 20px;
+    margin-bottom: 40px;
+    width: 771px;
+    height: 77px;
+    text-align: center;
 }
 
 p, li {
     color: rgb(19, 19, 19);
 }
+
+.recipe-list li {
+    border: 1px solid black;
+    border-color: rgb(209, 209, 247);;
+    display: inline-block;
+    font-size: 18px;
+    margin: 20px;
+    padding: 15px;
+    
+}
+
+
